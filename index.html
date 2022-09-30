@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <!-- set the character set -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- first step to a responsive site -->
+    <title>Flexbox styling</title>
+
+    <!-- FONT AWESOME -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Your styles should be called here -->
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      	<![endif]-->
+  </head>
+
+  <body>
+    <!-- YOUR CONTENT GOES HERE -->
+    <div class="container">
+      <section class="top">
+        <h1>Shukria Bayan</h1>
+        <h2>Current Student of MA Journalism at CUNY J school</h2>
+      </section>
+
+      <!-- <section class="photo"> -->
+
+      <figure>
+        <img class="shukria_img" src="images/shukria.jpg">
+        <figcaption> Jilin Library in Changchun/China <span class="credit">Credit: Nie Shou</span></figcaption>
+      </figure>
+
+      <section class="text">
+        <p> Hi. My name is Shukria Bayan. I am from Afghanistan. I graduated in 2014 from Bibi Zainab kobra high school. After I passed Kankor Exam (Afghanistan university test entry) with total 308 score out of 360. I begun my bachelor degree in Communication and Journalism major at the University of Kabul. During my studies, I also took part in a variety of Seminars, and several courses in the field of Journalism. 
+
+        <p> I love journalism therefore decided to improve my journalism knowledge and applied for many Journalism schools. luckily I got admitted in CUNY J school</p>
+
+        <p>Feel free to contact me for more details. 
+        E-mail: shukria.bayan22@gmail.com</p>
+      </section>
+
+      <h3 class="flex-hed">My Work in CUNY</h3> <!-- broke the subhed out of text to correct alignment based on mock -->
+
+      <section class="flex">
+        <!-- flex box refers to the box that contains the "flexed" content -->
+
+        <section class="img_holder">
+          <!-- each img_holder is flexed content -->
+          <figure class="sub_img">
+            <img class="small" src="images/singlemom.jpg"> <!-- You should crop your images to be the same size before using them, otherwise, even with flex box, they come out uneven -->
+            <figcaption class="sub_cap">Jakeya Young kids trying login to class</figcaption>
+          </figure>
+          <section class="sub_text">
+            <p>Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien.
+            </p>
+          </section>
+        </section>
+
+
+        <section class="img_holder">
+          <figure class="sub_img">
+            <img class="main_img" src="images/alam.jpg">
+            <figcaption class="sub_cap">Nulla metus metus, ullamcorper vel. <span class="credit">Credit: Tiberius Cesear</span></figcaption>
+          </figure>
+          <section class="sub_text">
+            <p>Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. </p>
+          </section>
+        </section>
+
+
+        <section class="img_holder">
+          <figure class="sub_img">
+            <img class="main_img" src="images/parade.jpg">
+            <figcaption class="sub_cap">Nunc feugiat mi a tellus consequat imperdiet. <span class="credit">Credit: Nero Cesear</span></figcaption>
+          </figure>
+          <section class="sub_text">
+            <p>Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia
+              aliquet. Mauris ipsum. </p>
+          </section>
+        </section>
+
+      </section>
+      <!-- this ^ closes the flex box section -->
+
+    </div>
+
+    <!-- When you get to using javascript, you'll want to link to it at the bottom of the document, still inside the body. That's for later. -->
+    <!-- the jQuery library. You need this to be able to use jQuery ($) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Your javascript should be called here -->
+
+  </body>
+
+</html>
